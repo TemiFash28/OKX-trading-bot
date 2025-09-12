@@ -1,0 +1,12 @@
+{
+  "pair": "ETH/USDT",
+  "strategy": "rsi",
+  "base_dca_amount": 0.01,
+  "base_grid_size": 1.5,
+  "dca_dip_threshold": 3,
+  "peak_hours": [8, 17],
+  "low_liquidity_hours": [4, 6],
+  "live_trading": true,
+  "max_daily_spend": 30,
+  "max_trades_per_day": 5
+}
