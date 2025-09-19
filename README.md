@@ -24,7 +24,7 @@ The bot supports custom strategy plugins, dry-run/live trading modes, daily risk
 ├── config.json       # Bot configuration (pair, strategy, risk settings)
 ├── requirements.txt  # Python dependencies
 ├── .env              # Your OKX API keys (not in repo, create manually)
-└── strategy_loader.py (your strategies module, add as needed)
+└── strategies (your strategies module, add as needed)
 ```
 
 ---
@@ -86,7 +86,7 @@ Logs are saved to:
 ---
 
 ## 🛠️ Extending Strategies
-Strategies are loaded via the `strategy_loader` module.  
+Strategies are loaded via the `strategies` module.  
 To add a new one:
 1. Implement a new strategy class with `generate_signal(market_data)`.
 2. Reference it in `config.json`.
